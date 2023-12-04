@@ -14,6 +14,12 @@ export default {
         "gray-dk": "#666666",
         black: "#000000",
       },
+      backgroundImage: {
+        hero: "url('./assests/images/hero-background.svg')",
+      },
+      screens: {
+        wide: "1440px",
+      },
     },
   },
   plugins: [],

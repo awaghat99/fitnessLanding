@@ -3,9 +3,9 @@ import Nav from "./components/Nav";
 
 const App = () => {
   return (
-    <main className="bg-black text-white">
+    <main className=" bg-black text-white">
       <Nav />
-      <section className="xl:padding-1 wide:padding-r padding-b">
+      <section className="padding-x">
         <Hero />
       </section>
       <section className="padding">
