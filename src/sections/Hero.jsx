@@ -10,7 +10,7 @@ const Hero = () => {
         <img src={heroBackground} alt="Hero Background" className="h-[100%]" />
       </div>
       <div className="flex h-full justify-center flex-col">
-        <h1 className="text-7xl relative z-10 leading-tight uppercase font-anton max-md:text-6xl max-md:leading-tight max-sm:text-4xl">
+        <h1 className="text-7xl relative z-10 leading-tight uppercase font-anton max-lg:leading-relaxed max-md:text-5xl max-md:leading-relaxed">
           <span className="text-2xl text-lemon-yellow">Welcome To the</span>
           <br /> <span className="line-through decoration-lemon-yellow">Most wanted</span> <br /> Online
           Personal <br /> Training
