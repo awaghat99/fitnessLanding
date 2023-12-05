@@ -15,7 +15,7 @@ const Membership = () => {
       <p className="my-10 font-inter text-gray-md text-md max-sm:text-md w-[430px] max-sm:w-auto">
         Gaine up your routine with our growing library of workouts led by our world-class trainers
       </p>
-      <div className="flex w-full flex-wrap justify-between max-md:justify-center max-md:gap-6">
+      <div className="flex w-full flex-wrap justify-between max-lg:justify-center max-lg:gap-6">
         {membershipTiers.map((tier, index) => {
           return <MembershipCard tier={tier} key={index} />;
         })}

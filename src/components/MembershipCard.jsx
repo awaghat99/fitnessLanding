@@ -4,7 +4,7 @@ import Button from "../components/Button";
 
 const MembershipCard = (props) => {
   return (
-    <div className="  border-2 border-lemon-yellow w-[30%] max-md:w-[47%] max-sm:w-full">
+    <div className="  border-2 border-lemon-yellow w-[30%] max-lg:w-[47%] max-sm:w-full">
       <div className=" bg-hero bg-cover bg-center px-4 py-6">
         <img src={logo} alt="logo" className="w-16 " />
         <p className="font-anton uppercase text-4xl text-lemon-yellow mt-24">{props.tier.title}</p>
