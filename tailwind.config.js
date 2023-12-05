@@ -15,7 +15,13 @@ export default {
         black: "#000000",
       },
       backgroundImage: {
-        hero: "url('./assests/images/hero-background.svg')",
+        hero: "url('./assets/images/hero-background.svg')",
+        yoga: "url('./assets/images/yoga.jpg')",
+        cardio: "url('./assets/images/cardio.jpg')",
+        strength: "url('./assets/images/strength.jpg')",
+        boxing: "url('./assets/images/boxing.jpg')",
+        dance: "url('./assets/images/dance.jpg')",
+        pilates: "url('./assets/images/pilates.jpg')",
       },
       screens: {
         wide: "1440px",
