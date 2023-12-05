@@ -110,3 +110,14 @@ export const testimonials = [
     profilePic: samanthaProfile,
   },
 ];
+
+export const footerLinks = [
+  { text: "Programs" },
+  { text: "Membership" },
+  { text: "Testimonials" },
+  { text: "Community" },
+  { text: "Blog" },
+  { text: "Contact Us" },
+  { text: "FAQ" },
+  { text: "Store" },
+];
