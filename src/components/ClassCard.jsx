@@ -4,8 +4,8 @@ const ClassCard = (props) => {
   return (
     <div className="w-[28%] flex-none max-lg:w-[40%] max-sm:w-[85%]">
       <div className={`w-full h-[415px] ${props.bg} bg-cover bg-center`}></div>
-      <h2 className="h2-styles">{props.classInfo.title}</h2>
-      <p>{props.classInfo.description}</p>
+      <h3 className="font-anton text-2xl uppercase my-5">{props.classInfo.title}</h3>
+      <p className="text-gray-md font-inter text-sm w-[65%]">{props.classInfo.description}</p>
     </div>
   );
 };

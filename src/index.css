@@ -37,6 +37,18 @@
   .h2-style {
     @apply text-5xl font-anton uppercase max-sm:text-2xl;
   }
+
+  .scrollbar::-webkit-scrollbar {
+    height: 20px;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #d7fb00;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    background: #666666;
+  }
 }
 
 @keyframes slide {
