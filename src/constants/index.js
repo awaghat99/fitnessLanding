@@ -46,3 +46,18 @@ export const classesInfo = [
     imageExtension: "bg-dance",
   },
 ];
+
+export const membershipTiers = [
+  {
+    title: "1 Day pass",
+    price: "free",
+  },
+  {
+    title: "1 Month pass",
+    price: "$20.00",
+  },
+  {
+    title: "1 Week pass",
+    price: "$14.00",
+  },
+];
