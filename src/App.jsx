@@ -1,6 +1,7 @@
 import { Hero, Community, Footer, Membership, Programmes, Testimonials } from "./sections/index";
 import Nav from "./components/Nav";
 import SlidingBanner from "./components/SlidingBanner";
+import Social from "./sections/Social";
 
 const App = () => {
   return (
@@ -26,6 +27,10 @@ const App = () => {
 
       <section className="padding">
         <Community />
+      </section>
+
+      <section className="padding-x">
+        <Social />
       </section>
 
       <section className="padding">

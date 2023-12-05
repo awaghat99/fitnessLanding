@@ -49,6 +49,10 @@
   .scrollbar::-webkit-scrollbar-track {
     background: #666666;
   }
+
+  .aspect {
+    aspect-ratio: 1;
+  }
 }
 
 @keyframes slide {
