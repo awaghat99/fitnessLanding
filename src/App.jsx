@@ -13,7 +13,7 @@ const App = () => {
 
       <SlidingBanner />
 
-      <section className="padding">
+      <section id="programs" className="padding">
         <Programmes />
       </section>
 
@@ -21,11 +21,11 @@ const App = () => {
         <Membership />
       </section>
 
-      <section className="padding bg-white text-black">
+      <section id="testimonials" className="padding bg-white text-black">
         <Testimonials />
       </section>
 
-      <section className="padding">
+      <section id="contact-us" className="padding">
         <Community />
       </section>
 
